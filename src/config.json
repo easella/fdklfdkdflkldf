@@ -1,0 +1,31 @@
+{
+    "bindingAddress": "127.0.0.1",
+    "port": 8888,
+    "sessionPeriod": 604800000,
+    "sessionCookieName": "CNN_PROXY_SESSION_ID",
+    "defaultIPv6": false,
+    "enableFilterJavascript": false,
+    "obscureDomainChecking": false,
+    "injectCode": true,
+    "injectionCodePath": "injection.html",
+    "removeCachingHeaders": false,
+    "removeAllIntegrityAttributes": true,
+    "publicFolder": "public_root/",
+    "filterMimeTypes": [
+        "/html",
+        "/css",
+        "/javascript",
+        "/json"
+    ],
+    "associateMime": {
+    	"" : "text/html",
+    	"html" : "text/html",
+    	"js": "application/javascript",
+    	"css": "text/css"
+    },
+    "defaultMime": "application/octet-stream",
+    "blacklistDomains": [
+        "example\\.com"
+    ],
+    "whitelistDomains": []
+}
